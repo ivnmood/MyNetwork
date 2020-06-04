@@ -1,0 +1,6 @@
+.error {
+    margin: 5px;
+    padding: 5px;
+    color: red;
+    border: 3px red solid;
+}

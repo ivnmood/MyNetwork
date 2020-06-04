@@ -1,0 +1,22 @@
+.nav {
+    background-color: darkcyan;
+    grid-area: sidebar;
+    padding: 30px;
+
+
+}
+
+.link a {
+    text-decoration: none;
+    font-size: large;
+}
+
+.link a.active {
+    color: orangered;
+}
+
+.friends {
+    padding-top: 40px;
+}
+
+
