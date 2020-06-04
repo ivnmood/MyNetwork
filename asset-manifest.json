@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/MyNetwork/static/css/main.38a78f46.chunk.css",
-    "main.js": "/MyNetwork/static/js/main.0e074243.chunk.js",
-    "main.js.map": "/MyNetwork/static/js/main.0e074243.chunk.js.map",
+    "main.js": "/MyNetwork/static/js/main.4ceef358.chunk.js",
+    "main.js.map": "/MyNetwork/static/js/main.4ceef358.chunk.js.map",
     "runtime-main.js": "/MyNetwork/static/js/runtime-main.887e8df2.js",
     "runtime-main.js.map": "/MyNetwork/static/js/runtime-main.887e8df2.js.map",
-    "static/js/2.0170baff.chunk.js": "/MyNetwork/static/js/2.0170baff.chunk.js",
-    "static/js/2.0170baff.chunk.js.map": "/MyNetwork/static/js/2.0170baff.chunk.js.map",
+    "static/js/2.0ea1f557.chunk.js": "/MyNetwork/static/js/2.0ea1f557.chunk.js",
+    "static/js/2.0ea1f557.chunk.js.map": "/MyNetwork/static/js/2.0ea1f557.chunk.js.map",
     "static/css/3.2b283795.chunk.css": "/MyNetwork/static/css/3.2b283795.chunk.css",
     "static/js/3.4eb3d72a.chunk.js": "/MyNetwork/static/js/3.4eb3d72a.chunk.js",
     "static/js/3.4eb3d72a.chunk.js.map": "/MyNetwork/static/js/3.4eb3d72a.chunk.js.map",
@@ -17,19 +17,19 @@
     "static/js/5.398d801f.chunk.js": "/MyNetwork/static/js/5.398d801f.chunk.js",
     "static/js/5.398d801f.chunk.js.map": "/MyNetwork/static/js/5.398d801f.chunk.js.map",
     "index.html": "/MyNetwork/index.html",
-    "precache-manifest.e615cf363b779eb1d21c8e762404869a.js": "/MyNetwork/precache-manifest.e615cf363b779eb1d21c8e762404869a.js",
+    "precache-manifest.39a20b456ebde2770f27f1ca9b4599fc.js": "/MyNetwork/precache-manifest.39a20b456ebde2770f27f1ca9b4599fc.js",
     "service-worker.js": "/MyNetwork/service-worker.js",
     "static/css/3.2b283795.chunk.css.map": "/MyNetwork/static/css/3.2b283795.chunk.css.map",
     "static/css/4.25b44a53.chunk.css.map": "/MyNetwork/static/css/4.25b44a53.chunk.css.map",
     "static/css/5.0ab0ac3b.chunk.css.map": "/MyNetwork/static/css/5.0ab0ac3b.chunk.css.map",
     "static/css/main.38a78f46.chunk.css.map": "/MyNetwork/static/css/main.38a78f46.chunk.css.map",
-    "static/js/2.0170baff.chunk.js.LICENSE.txt": "/MyNetwork/static/js/2.0170baff.chunk.js.LICENSE.txt",
+    "static/js/2.0ea1f557.chunk.js.LICENSE.txt": "/MyNetwork/static/js/2.0ea1f557.chunk.js.LICENSE.txt",
     "static/media/user.png": "/MyNetwork/static/media/user.129ab51c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.887e8df2.js",
-    "static/js/2.0170baff.chunk.js",
+    "static/js/2.0ea1f557.chunk.js",
     "static/css/main.38a78f46.chunk.css",
-    "static/js/main.0e074243.chunk.js"
+    "static/js/main.4ceef358.chunk.js"
   ]
 }
