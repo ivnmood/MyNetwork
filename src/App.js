@@ -1,6 +1,6 @@
 import React, {Suspense, useEffect} from 'react';
 import './App.css';
-import {BrowserRouter, Route, withRouter} from "react-router-dom";
+import {BrowserRouter, HashRouter, Route, withRouter} from "react-router-dom";
 import MessagesContainer from "./components/Messages/MessagesContainer";
 import SidebarContainer from "./components/Sidebar/SidebarContainer";
 import FriendsContainer from "./components/Friends/FriendsContainer";
@@ -78,11 +78,11 @@ const AppContainer = compose(
     connect(mapStateToProps, {initializeApp}))(App);
 
 const MainApp = () => {
-    return <BrowserRouter>
+    return <HashRouter>
         <Provider store={store}>
             <AppContainer/>
         </Provider>
-    </BrowserRouter>
+    </HashRouter>
 }
 
 export default MainApp;
