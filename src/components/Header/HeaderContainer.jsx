@@ -11,8 +11,7 @@ const HeaderContainer = (props) => {
 const mapStateToProps = (state) => ({
 
     isAuth: state.auth.isAuth,
-    login: state.auth.login,
-    email: state.auth.email,
+    login: state.auth.login
 })
 
 export default connect(mapStateToProps, { logout})(HeaderContainer);

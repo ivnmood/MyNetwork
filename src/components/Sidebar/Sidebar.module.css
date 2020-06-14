@@ -2,7 +2,7 @@
     background-color: darkcyan;
     grid-area: sidebar;
     padding: 30px;
-
+    margin-left: 15vw;
 
 }
 
@@ -18,5 +18,15 @@
 .friends {
     padding-top: 40px;
 }
+
+
+
+.pageConstrain {
+    width: 75%;
+    min-width: 960px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 
 

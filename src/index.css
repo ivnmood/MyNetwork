@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.logo > h2 {
+  color: white;
+  padding-left: 15px;
+}
+
+.site-layout-sub-header-background {
+  background: #fff;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+[data-theme="dark"] .site-layout-sub-header-background {
+  background: #141414;
+}
+
+.ant-avatar {
+  margin-top: 16px;
+  margin-right: 16px;
+}
+.ant-row-rtl .ant-avatar {
+  margin-right: 0;
+  margin-left: 16px;
+}

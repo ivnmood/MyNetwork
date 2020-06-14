@@ -1,12 +1,20 @@
-.header {
-    background-color: cadetblue;
-    grid-area: header;
-}
+/*.header {*/
+/*    background-color: cadetblue;*/
+/*    grid-area: header;*/
+/*    padding-left: 15vw;*/
+/*   padding-right: 15vw;*/
+/*    padding-top: 2vh;*/
+/*}*/
 
-.header img {
-    width: 100px;
-}
+/*.header img {*/
+/*    width: 25vh;*/
+/*}*/
 
 .loginBlock {
     float: right;
+
+}
+
+.loginBlockInfo {
+    color: white;
 }

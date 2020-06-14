@@ -1,17 +1,16 @@
 import React from "react";
-import styles from "./preloader.module.css";
+import {
+    LoadingOutlined,
+} from '@ant-design/icons';
+import s from "./preloader.module.css"
 
 const Preloader = () => {
-    return <div className={styles.lds_roller}>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
+    return (
+        <div className={s.loader}>
+            <LoadingOutlined/>
+        </div>
+        )
+
 }
 
 

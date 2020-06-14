@@ -18,3 +18,8 @@
     font-weight: bold;
     border-color: black;
 }
+
+
+.pagination {
+    text-align: center;
+}

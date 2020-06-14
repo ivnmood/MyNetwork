@@ -7,8 +7,8 @@ const ProfileStatusWithHooks = (props) => {
     let [status, setStatus] = useState(props.status)
 
     useEffect(() => {
-        setStatus(props.status)
-    },
+            setStatus(props.status)
+        },
         [props.status])
 
     const activateEditMode = () => {
@@ -20,25 +20,43 @@ const ProfileStatusWithHooks = (props) => {
         props.updateStatus(status)
     }
 
-   const onStatusChange = (e) => {
+    const onStatusChange = (e) => {
         setStatus(e.currentTarget.value)
     }
 
     return (
         <div>
             {!editMode &&
-            <div>
-                <span onClick={activateEditMode}>{props.status || "-----"}</span>
-            </div>
+            <StatusWithoutEditMode activateEditMode={activateEditMode} status={props.status}/>
             }
-            {editMode &&
-            <div>
-                <input autoFocus={true} onBlur={deactivateEditMode} onChange={onStatusChange}  value={status}
-                />
-            </div>
+            {editMode && props.isOwner &&
+            <StatusWithEditMode deactivateEditMode={deactivateEditMode} status={status}
+                                onStatusChange={onStatusChange}/>
             }
+            {editMode && !props.isOwner &&
+            <StatusWithoutEditMode activateEditMode={activateEditMode} status={props.status}/>
+            }
+
         </div>
     )
 }
+
+
+let StatusWithoutEditMode = ({activateEditMode, ...props}) => {
+    return (
+        <div>
+            <b>Status: </b> <span onClick={activateEditMode}>{props.status || "-----"}</span>
+        </div>
+    )
+}
+let StatusWithEditMode = ({deactivateEditMode, onStatusChange, status}) => {
+    return (
+        <div>
+            <b>Status: </b> <input autoFocus={true} onBlur={deactivateEditMode} onChange={onStatusChange}
+                                   value={status}/>
+        </div>
+    )
+}
+
 
 export default ProfileStatusWithHooks;

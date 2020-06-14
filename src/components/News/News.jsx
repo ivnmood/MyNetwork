@@ -1,15 +1,10 @@
 import React from "react";
-import Style from "./News.module.css"
+import 'antd/dist/antd.css';
+import { Empty } from 'antd';
 
 const News = () => {
     return (
-        <div>
-            News
-            News
-            News
-            News
-            News
-        </div>
+        <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} />
     )
 }
 

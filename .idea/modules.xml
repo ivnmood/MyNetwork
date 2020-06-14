@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MyNetwork.iml" filepath="$PROJECT_DIR$/.idea/MyNetwork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/react-1.iml" filepath="$PROJECT_DIR$/.idea/react-1.iml" />
     </modules>
   </component>
 </project>

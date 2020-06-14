@@ -1,14 +1,10 @@
 import React from "react";
-import Style from "./Settings.module.css"
+import 'antd/dist/antd.css';
+import { Empty } from 'antd';
 
 const Settings = () => {
     return (
-       <div>
-           Settinga
-           Settinga
-           Settinga
-           Settinga
-       </div>
+        <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} />
     )
 }
 
