@@ -42,8 +42,6 @@ const UsersContainer = (props) => {
                    currentPage={props.currentPage}
                    onPageChanged={onPageChanged}
                    users={props.users}
-                   follow={props.follow}
-                   unfollow={props.unfollow}
                    toggleFollowingProgress={props.toggleFollowingProgress}
                    followingInProgress={props.followingInProgress}
                    followUser={props.followUser}
