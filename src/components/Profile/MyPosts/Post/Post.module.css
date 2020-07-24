@@ -3,21 +3,10 @@
     padding-top: 10px;
 }
 
-.post img {
-    border-radius: 100px;
-    width: 90px;
-}
 
-.likes {
-    padding: 10px;
-    color: blue;
-}
 
-.button {
-    border-radius: 5px;
-    background-color: paleturquoise ;
-    border-color: black;
-}
+
+
 
 .message {
     padding-left: 15px;

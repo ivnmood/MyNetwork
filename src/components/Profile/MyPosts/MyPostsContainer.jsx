@@ -2,6 +2,8 @@ import React from "react";
 import {addPostActionCreator} from "../../../redux/ProfilePageReducer";
 import MyPosts from "./MyPosts";
 import {connect} from "react-redux";
+import {getUsers} from "../../../redux/UsersSelectors";
+import {requestUsers} from "../../../redux/UsersPageReducer";
 
 
 
@@ -10,6 +12,7 @@ import {connect} from "react-redux";
 const mapStateToProps = (state) => {
     return {
         postData: state.profilePage.postData,
+        users: getUsers(state)
     }
 }
 
@@ -18,7 +21,8 @@ const mapStateToDispatch = (dispatch) => {
 
         addPost: (newPostElement) => {
            dispatch(addPostActionCreator(newPostElement));
-        }
+        },
+        getUsers: requestUsers
 
     }
 }
