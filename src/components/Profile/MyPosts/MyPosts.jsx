@@ -7,8 +7,7 @@ import {TextArea} from "../../common/FormsControl/FormsControl";
 
 
 const MyPosts = (props) => {
-    let postElement = props.postData.map((m, index) => <Post users={props.users} key={index} message={m.message}
-                                                             likes={m.likesCount}/>);
+    let postElement = props.postData.map(m => <Post key={m} message={m.message} likes={m.likesCount}/>);
 
     let AddNewPost = (values) => {
         props.addPost(values.newPostElement);
@@ -17,7 +16,7 @@ const MyPosts = (props) => {
     return (
         <div className={Style.content}>
             <div>
-                <b><h1>My Posts:</h1></b>
+<b><h1>My Posts:</h1></b>
                 <AddPostReduxForm onSubmit={AddNewPost}/>
 
             </div>

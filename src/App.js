@@ -3,7 +3,7 @@ import 'antd/dist/antd.css';
 import { Layout} from 'antd';
 import SidebarContainer from "./components/Sidebar/SidebarContainer";
 import HeaderContainer from "./components/Header/HeaderContainer";
-import {BrowserRouter, Redirect, Route, Switch, withRouter} from "react-router-dom";
+import {BrowserRouter, HashRouter, Redirect, Route, Switch, withRouter} from "react-router-dom";
 import ProfileContainer from "./components/Profile/ProfileContainer";
 import MessagesContainer from "./components/Messages/MessagesContainer";
 import Preloader from "./components/common/preloader/preloader";
