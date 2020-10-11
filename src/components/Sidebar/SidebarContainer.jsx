@@ -6,7 +6,6 @@ import Sidebar from "./Sidebar";
 
 const mapStateToProps = (state) => {
     return {
-        friendsData: state.sidebar.friendsData
     }
 }
 

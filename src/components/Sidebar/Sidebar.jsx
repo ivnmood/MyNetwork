@@ -1,7 +1,6 @@
 import React from "react";
 import Style from "./Sidebar.module.css"
 import {NavLink} from "react-router-dom";
-import Friend from "../Friends/Friend/Friend";
 import {
     LineOutlined,
 } from '@ant-design/icons';
@@ -11,10 +10,7 @@ import {Menu} from "antd";
 
 
 
-const Sidebar = (props) => {
-
-    let FriendsElement = props.friendsData.map(f => <Friend name={f.name}/>);
-
+const Sidebar = () => {
     return (
         <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
             <Menu.Item key="1" icon={<LineOutlined />}>
@@ -36,38 +32,6 @@ const Sidebar = (props) => {
                 <NavLink to="/settings" activeClassName={Style.active}>Settings</NavLink>
             </Menu.Item>
         </Menu>
-
-
-
-
-
-
-
-
-        // <nav className={Style.nav}>
-        //     <div className={Style.link}>
-        //         <NavLink to="/profile" activeClassName={Style.active}>Profile</NavLink>
-        //     </div>
-        //     <div className={Style.link}>
-        //         <NavLink to="/messages" activeClassName={Style.active}>Messages</NavLink>
-        //     </div>
-        //     <div className={Style.link}>
-        //         <NavLink to="/users" activeClassName={Style.active}>Users</NavLink>
-        //     </div>
-        //     <div className={Style.link}>
-        //         <NavLink to="/news" activeClassName={Style.active}>News</NavLink>
-        //     </div>
-        //     <div className={Style.link}>
-        //         <NavLink to="/music" activeClassName={Style.active}>Music</NavLink>
-        //     </div>
-        //     <div className={Style.link}>
-        //         <NavLink to="/settings" activeClassName={Style.active}>Settings</NavLink>
-        //     </div>
-        //     <div className={`${Style.link} + ${Style.friends}`}>
-        //         <NavLink to="/friends" activeClassName={Style.active}>Friends</NavLink>
-        //         {FriendsElement}
-        //     </div>
-        // </nav>
     )
 };
 
